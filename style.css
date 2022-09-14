@@ -35,3 +35,22 @@
     margin-left: 100px;
 
 }
+
+.container {
+    /* justify-content: center; */
+    /* align-items: center; */
+    align-content: center;
+    justify-items: space-between;
+}
+
+.trusted {
+    margin-left: 200px;
+}
+
+.Questions {
+    margin-left: 300px;
+}
+
+.paragraph {
+    margin-left: 300px;
+}
