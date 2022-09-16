@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
+    <title>EduTech Website</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <!-- fontawesome link 
@@ -15,8 +15,8 @@
 </head>
 
 <body>
-    <header class="container">
-        <nav class="navbar navbar-expand-lg bg-light">
+    <header class="container mt-5">
+        <nav class="navbar navbar-expand-lg ">
             <div class="container">
                 <a class="navbar-brand" href="#">EdTech</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -46,7 +46,7 @@
                         </li>
 
                     </ul>
-                    <button class="btn btn-outline-success" type="submit">Register</button>
+                    <button class="btn btn-primary btn-lg" type="submit">Register</button>
                 </div>
             </div>
         </nav>
@@ -111,9 +111,9 @@
             content of a page when looking at its layout</p>
 
         <div class="row row-cols-2">
-            <div class="col mb-4">
+            <div class="col sm-4 border rounded ">
                 <article class="course d-flex">
-                    <div class="article px-3">
+                    <div class="article px-3 ">
                         <img src="images/course/course-1.png" alt="">
                     </div>
                     <div class="course-info ">
@@ -125,7 +125,7 @@
                 </article>
 
             </div>
-            <div class="col mb-4">
+            <div class="col sm-4 border rounded ms-0">
                 <article class="course d-flex">
                     <div class="article px-3">
                         <img src="images/course/course-2.png" alt="">
@@ -138,7 +138,7 @@
                     </div>
                 </article>
             </div>
-            <div class="col mb-4">
+            <div class="col mb-4 border rounded ms-0">
                 <article class="course d-flex">
                     <div class="article px-3">
                         <img src="images/course/course-3.png" alt="">
@@ -151,7 +151,7 @@
                     </div>
                 </article>
             </div>
-            <div class="col mb-4">
+            <div class="col mb-4 border rounded ms-0">
                 <article class="course d-flex">
                     <div class="article px-3">
                         <img src="images/course/course-4.png" alt="">
@@ -164,7 +164,7 @@
                     </div>
                 </article>
             </div>
-            <div class="col mb-4">
+            <div class="col mb-4 border rounded ms-0">
                 <article class="course d-flex">
                     <div class="article px-3">
                         <img src="images/course/course-5.png" alt="">
@@ -177,7 +177,7 @@
                     </div>
                 </article>
             </div>
-            <div class="col mb-4">
+            <div class="col mb-4 border rounded ms-0">
                 <article class="course d-flex">
                     <div class="article px-3">
                         <img src="images/course/course-6.png" alt="">
@@ -191,11 +191,54 @@
                 </article>
             </div>
         </div>
-        <a href=""><button type="button" class="see-more-btn btn-warning mx-md-5">See More Courses</button> </a>
+        <div class="mx-auto" style="width: 200px;">
+            <button type="button" class="btn btn-primary btn-lg">See More Courses</button>
+        </div>
 
 
     </section>
     <!-- Discover Courses end-->
+
+    <!-- Explore The elearning Institute start -->
+    <section class="container mt-5">
+        <div class="card mb-3">
+            <div class="row g-0">
+                <div class="col-md-6">
+                    <img src="images/working.png" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-6 py-5 bg-cyan">
+                    <div class="card-body">
+                        <h5 class="card-title">Explore The elearning
+                            Institute</h5>
+                        <p class="card-text">here are many variations of passages of Lorem Ipsum available, but the
+                            majority have suffered alteration in some form, by injected humour, or
+                            randomised words which don't look even slightly believable. If you are going
+                            to use a passage of Lorem Ipsum, you need to be sure.</p>
+                        <p class="card-text">Anything embarrassing hidden in the middle of text. All the Lorem Ipsum
+                            generators on the Internet tend to repeat predefined.</p>
+                        <div class="card-rating d-flex ">
+                            <span class="px-3">
+                                <h3>3.2K+</h3>
+                                <p>Online Course</p>
+                            </span>
+                            <span>
+                                <h3>600K+</h3>
+                                <p>Expert member</p>
+                            </span>
+                            <span>
+                                <h3 class="px-5">1K+</h3>
+                                <p class="px-5">Rating & Review</p>
+                            </span>
+                        </div>
+                        <button type="button" class="btn btn-primary btn-lg">Read More</button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- Explore The elearning Institute end -->
 
 
     <!-- Ready to join resistration part start-->
@@ -214,11 +257,42 @@
                             </div>
 
                         </div>
-                        <div class="col-md-6">
-                            <!-- Submit button -->
-                            <button type="submit" class="btn btn-outline-light mt-5">
-                                Register Now
-                            </button>
+                        <div class=" container col-md-6">
+                            <!-- modal Submit button -->
+
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal" data-bs-whatever="@mdo">Register Now</button>
+
+                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">New message</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <form>
+                                                <div class="mb-3">
+                                                    <label for="recipient-name"
+                                                        class="col-form-label">Recipient:</label>
+                                                    <input type="text" class="form-control" id="recipient-name">
+                                                </div>
+                                                <div class="mb-3">
+                                                    <label for="message-text" class="col-form-label">Message:</label>
+                                                    <textarea class="form-control" id="message-text"></textarea>
+                                                </div>
+                                            </form>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary"
+                                                data-bs-dismiss="modal">Close</button>
+                                            <button type="button" class="btn btn-primary">Send message</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                 </div>
         </div>
@@ -278,6 +352,10 @@
                     </div>
                 </div>
             </div>
+            <section class="container py-5">
+                <button type="button" class="btn btn-primary btn-lg">View All</button>
+            </section>
+
     </section>
 
     <!-- Meet Our Successfull Students end -->
@@ -368,7 +446,7 @@
             will be distracted by the readable <br>
             content of a page when looking at its layout.</p>
         <div class="accordion" id="accordionExample">
-            <div class="accordion-item">
+            <div class="accordion-item shadow ">
                 <h2 class="accordion-header" id="headingOne">
                     <button class="accordion-button" type="button" data-bs-toggle="collapse"
                         data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
@@ -391,7 +469,7 @@
                     </div>
                 </div>
             </div>
-            <div class="accordion-item">
+            <div class="accordion-item shadow ">
                 <h2 class="accordion-header" id="headingTwo">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                         data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
@@ -411,7 +489,7 @@
                     </div>
                 </div>
             </div>
-            <div class="accordion-item">
+            <div class="accordion-item shadow ">
                 <h2 class="accordion-header" id="headingThree">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                         data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
@@ -430,7 +508,7 @@
             </div>
         </div>
         <div class="accordion" id="accordionExample">
-            <div class="accordion-item">
+            <div class="accordion-item shadow ">
                 <h2 class="accordion-header" id="headingOne">
                     <button class="accordion-button" type="button" data-bs-toggle="collapse"
                         data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
@@ -447,7 +525,7 @@
                     </div>
                 </div>
             </div>
-            <div class="accordion-item">
+            <div class="accordion-item shadow ">
                 <h2 class="accordion-header" id="headingTwo">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                         data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
