@@ -17,3 +17,24 @@
 .paragraph {
     margin-left: 300px;
 }
+
+@media screen and (max-width:668px) {
+    .trusted-company {
+        display: none;
+    }
+}
+
+@media screen and (max-width:668px) {
+    .row row-cols-2 {
+        flex-direction: row-reverse;
+
+    }
+}
+
+
+@media screen and (max-width:668px) {
+    .col sm-4 {
+        flex-direction: row-reverse;
+
+    }
+}
